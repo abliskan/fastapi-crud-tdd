@@ -8,7 +8,7 @@ app = FastAPI()
 db: List[Product] = [
     Product(
         id=uuid4(),
-        name="Ricky",
+        name="Gaming Chair",
         price=13400
     )
 ]
